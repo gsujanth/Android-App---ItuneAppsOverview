@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MidTerm</string>
+    <string name="Genre">Genre:</string>
+    <string name="filterButton">Filter</string>
+</resources>
