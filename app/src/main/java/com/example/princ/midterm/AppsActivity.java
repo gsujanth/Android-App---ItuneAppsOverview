@@ -104,6 +104,7 @@ public class AppsActivity extends AppCompatActivity implements GetAppsListTask.I
     public void handleApps(ArrayList<App> s,ArrayList<String> g) {
         genresList=g;
         sortGenres(genresList);
+        //Collections.sort(genresList);
         genresList.add(0,"All");
         appsList.clear();
         if(s!=null&&!s.isEmpty()) {

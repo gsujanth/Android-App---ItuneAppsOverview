@@ -50,6 +50,8 @@ public class App implements Serializable{
                 return s1.compareTo(s2) ;
             }
         });
+
+        //Collections.sort(genres);
         StringBuilder genreList=new StringBuilder();
         String[] genresArray = genres.toArray(new String[genres.size()]);
         for(String genre:genresArray){
